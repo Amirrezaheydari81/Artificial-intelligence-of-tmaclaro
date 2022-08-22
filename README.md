@@ -1,4 +1,8 @@
 # Artificial-intelligence-of-tmaclaro
+
+  <img src="https://img.shields.io/github/directory-file-count/Amirrezaheydari81/Artificial-intelligence-of-tmaclaro">
+  <img src="https://img.shields.io/github/languages/code-size/Amirrezaheydari81/Artificial-intelligence-of-tmaclaro">
+  
 Google's artificial intelligence and checking all kinds of objects and limit analysis in images |  ah&amp;mmbi18
 
 <ul>
@@ -12,6 +16,3 @@ Google's artificial intelligence and checking all kinds of objects and limit ana
 
 #### Screen Shot
 <img src="screenshot.png" alt="Artificial-intelligence-of-tmaclaro">
-  
-  
-  <img src="https://img.shields.io/github/directory-file-count/Amirrezaheydari81/Artificial-intelligence-of-tmaclaro">
