@@ -8,3 +8,7 @@ Google's artificial intelligence and checking all kinds of objects and limit ana
 <li>More beautiful style</li>
 <li>Cleaner coding</li>
 </ul>
+<br />
+
+#### Screen Shot
+<img src="screenshot.png" alt="Artificial-intelligence-of-tmaclaro">
