@@ -12,3 +12,6 @@ Google's artificial intelligence and checking all kinds of objects and limit ana
 
 #### Screen Shot
 <img src="screenshot.png" alt="Artificial-intelligence-of-tmaclaro">
+  
+  
+  <img src="https://img.shields.io/github/directory-file-count/Amirrezaheydari81/Artificial-intelligence-of-tmaclaro">
