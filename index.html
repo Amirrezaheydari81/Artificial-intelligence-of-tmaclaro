@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- Load TensorFlow.js. This is required to use MobileNet. -->
+<script src="tf.min.js"> </script>
+<!-- Load the MobileNet model. -->
+<script src="mobilenet@1.0.0"> </script>
+
+<!-- Replace this with your image. Make sure CORS settings allow reading the image! -->
+<!-- <img id="img" src="car.jfif"></img> -->
+<div>
+    <h1> احتمال</h1>
+    <span id="predictions-2"></span>
+    <form runat="server">
+        <input accept="image/*" type='file' id="imgInp" />
+        <img id="blah" src="car.jfif" alt="your image" />
+    </form>
+</div>
+<script>
+    function hooshg() {
+        const img = document.getElementById('blah');
+
+        mobilenet.load().then(model => {
+
+            model.classify(img).then(predictions => {
+                n3 = predictions.map(pred => '<li>' + pred.className + '</li>');
+                let n1 = document.getElementById('predictions-2').innerHTML = '<ul>' + n3 + '</ul>';
+                console.log(predictions)
+            });
+        });
+    }
+    imgInp.onchange = evt => {
+        const [file] = imgInp.files
+        if (file) {
+            blah.src = URL.createObjectURL(file);
+            hooshg();
+        }
+    }
+
+</script>
+
+</body>
+
+</html>
+<!-- orginal source => https://www.tensorflow.org/js -->
